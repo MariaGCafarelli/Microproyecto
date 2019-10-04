@@ -1,42 +1,6 @@
-header {
-    background: rgba(0,0,0,0.9);
-    width: 100%;
-    position: fixed;
-    z-index: 100;
-  }
-
-  nav {
-    float: right; /* Desplazamos el nav hacia la izquierda */
-  }
-   
-  nav ul {
-    list-style: none;
-    overflow: hidden; /* Limpiamos errores de float */
-  }
-   
-  nav ul li {
-    float: left;
-    font-family: Arial, sans-serif;
-    font-size: 25px;
-  }
-   
-  nav ul li a {
-    display: block; /* Convertimos los elementos a en elementos bloque para manipular el padding */
-    padding: 22px;
-    color: #fff;
-    text-decoration: none;
-  }
-   
-  nav ul li:hover {
-    background: #e9a72c;
-  }
 
   .contenido{
     padding-top: 60%; 
-  }
-
-  .bigger{
-    font-size: 30px;
   }
 
   .banner{
@@ -63,8 +27,30 @@ header {
     font-size: 40px;
     text-align: center;
     padding-bottom: 40px;
+    padding-top: 40px;
     margin:auto;
     padding-left: 5%;
+    background-color: rgb(229, 219, 157);
+}
+
+.box1{
+  font-family: Century Gothic;
+  font-size: 20px;
+  text-align: center;
+  padding-bottom: 40px;
+  margin:auto;
+  padding-left: 5%;
+}
+
+.bigger{
+  font-size: 30px;
+  padding: 20px;
+  background-color: rgb(107, 107, 133);
+}
+.bigger1{
+  font-size: 30px;
+  padding: 20px;
+  background-color: rgb(107, 107, 133);
 }
 
 .info{
@@ -74,4 +60,8 @@ header {
 .img{
     width: 100%;
     height: 50%";
+}
+
+.skills{
+  margin-left: 35%;
 }
