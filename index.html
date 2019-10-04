@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">        
+        <link rel="stylesheet" href="main.css">
+        <title>Hero</title>
+ 
+    </head>
+    <body>
+        <!--ENCABEZADO-->
+
+        <header>
+            <nav>
+              <ul>
+                <li><a class="bigger" href="#">Hero</a></li>
+                <li><a href="#">Portafolio</a></li>
+                <li><a href="#">Acerca de mi</a></li>
+                <li><a href="#">Habilidades y destrezas</a></li>
+                <li><a href="#">Contacto</a></li>
+              </ul>
+            </nav>
+          </header>
+
+        <hr/>
+        
+        <div class="contenido">
+        <h2>Contacto</h2>
+        <div class="box">
+              <form action="" method="POST" id="formulario" onsubmit="return false;"/>
+                  
+                      <label for="nombre">Nombre</label><br/>
+                      <input type="text" name="nombre" id="nombre"/>
+                  
+
+                  <p>
+                      <label for="biografia">Biografía</label><br>
+                      <textarea name="biografia"></textarea>
+                  </p>
+
+                  <p>
+                      <label for="edad">Edad</label>
+                      <select name="edad">
+                          <option value="adulto">Mayor de edad</option>
+                          <option value="ni;o">Menor de edad</option>
+                          <option value="65">Viejo</option>
+                      </select>
+                  </p>
+
+                  <input type="submit" value="Enviar mail"/>
+                  
+              </form>
+          </div>
+              
+          <div class="box dashed">
+              <h3>Caja con datos</h3>
+              <p id="s_nombre">
+                  Nombre: <span> </span>
+              </p>
+          </div>
+      </div>
+        <script type="text/javascript" src="main.js"></script>    
+    </body>
+</html>
