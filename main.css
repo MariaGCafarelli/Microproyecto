@@ -32,9 +32,46 @@ header {
   }
 
   .contenido{
-    padding-top: 80px; 
+    padding-top: 60%; 
   }
 
   .bigger{
     font-size: 30px;
   }
+
+  .banner{
+    position: absolute; 
+    top: 0; 
+    left: 0;
+    width: 100%;
+    height: 50%";
+  
+  }
+
+  .tittle{
+    font-family: Century Gothic, sans-serif;
+    color: white;
+    font-size: 80px;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #e9a72c;
+  }
+
+  .box{
+    font-family: Century Gothic;
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 40px;
+    margin:auto;
+    padding-left: 5%;
+}
+
+.info{
+  padding: 3%;
+}
+
+.img{
+    width: 100%;
+    height: 50%";
+}
