@@ -9,57 +9,58 @@
  
     </head>
     <body>
-        <!--ENCABEZADO-->
 
-        <header>
-            <nav>
-              <ul>
-                <li><a class="bigger" href="#">Hero</a></li>
-                <li><a href="#">Portafolio</a></li>
-                <li><a href="#">Acerca de mi</a></li>
-                <li><a href="#">Habilidades y destrezas</a></li>
-                <li><a href="#">Contacto</a></li>
-              </ul>
-            </nav>
-          </header>
+        <img id="banner" class="banner" src="bienvenidos.png" />
 
-        <hr/>
         
         <div class="contenido">
-        <h2>Contacto</h2>
-        <div class="box">
-              <form action="" method="POST" id="formulario" onsubmit="return false;"/>
-                  
-                      <label for="nombre">Nombre</label><br/>
-                      <input type="text" name="nombre" id="nombre"/>
-                  
 
-                  <p>
-                      <label for="biografia">Biografía</label><br>
-                      <textarea name="biografia"></textarea>
-                  </p>
+            <div>
+                    <p class="tittle">Conoce un poco de mi trabajo</p>
+            </div>
+            
+                <table border="0" class="box">
+                    <tr>
+                        <th>Sudoku</th> 
+                        <th>Hormiguero</th>
+                        <th>Adivinador</th>
+                    </tr>
+        
+                    <tr>
+                        <th><img src="sudoku.png" alt="SUDOKU" tittle="Sudoku" /></th>
+                        <th><img src="hormiguero.jpg" alt="HORMIGUERO" tittle="Hormiguero" /></th>
+                        <th><img src="adivinador.jpg" alt="ADIVINADOR" tittle="Adivinador" /></th>
 
-                  <p>
-                      <label for="edad">Edad</label>
-                      <select name="edad">
-                          <option value="adulto">Mayor de edad</option>
-                          <option value="ni;o">Menor de edad</option>
-                          <option value="65">Viejo</option>
-                      </select>
-                  </p>
+                    </tr>
 
-                  <input type="submit" value="Enviar mail"/>
-                  
-              </form>
-          </div>
-              
-          <div class="box dashed">
-              <h3>Caja con datos</h3>
-              <p id="s_nombre">
-                  Nombre: <span> </span>
-              </p>
-          </div>
-      </div>
+                    <tr>
+                        <th class="info">Lo hice en Pygame, te daba la oportunidad de jugar el clásico</th>
+                        <th class="info">Lo hice en Java, usando un grafo como estructura, se simulaba el recorrido de las hormigas</th>
+                        <th class="info">Lo hice en Java, en el podías ir contruyendo un árbol de información con elementos para adivinar</th>
+
+                    </tr>
+
+                    <tr>
+                        <th class="info">Realizado en el 2015</th>
+                        <th class="info">Realizado en el 2019</th>
+                        <th class="info">Realizado en el 2019</th>
+
+                    </tr>
+                </table>
+            <div>
+                    <p class="tittle">Conoce un poco sobre mi</p>
+            </div>
+
+
+        </div>
+
+        <table border="0" class="box">
+                <tr>
+                    <th><img src="yo.jpg" alt="foto" tittle="Foto" class="img"/></th> 
+                    <th>Mi nombre es María Gabriela Cafarelli, estudio Ingeniería en Sistemas desde el 2019, comencé en la Universidad Simón Bolivar en el 2013 en Ingeniería en Computación. Mi objetivo a corto plazo es pasar mis materias, para graduarme lo antes posible y conseguir un buen trabajo. Me gusta cocinar y dar clases.</th>
+                </tr>
+        <table>
+
         <script type="text/javascript" src="main.js"></script>    
     </body>
 </html>
